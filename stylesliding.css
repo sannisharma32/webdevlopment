@@ -1,0 +1,23 @@
+html,body{
+    height: 100%;
+    width: 90%;
+
+}
+body{
+    padding: 20px;
+    margin: 23px;
+
+}
+#parent{
+    background-color: aquamarine;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.child{
+    height: 300px;
+    width: 300px;
+    background-color:salmon;
+    margin: 10px;
+    display: inline-block;
+}

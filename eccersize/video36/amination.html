@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amination</title>
+   <style>
+    .conatiner{
+        height: 37vh;
+        width: 33vw;
+        background-color: aqua;
+    }
+    .box{
+        width: 76px;
+        height: 18px;
+        background-color: black;
+        /* animation-name:  mymove ;
+        animation-duration: 1s;
+        border-radius: 23px;
+        animation-iteration-count: 2;
+        animation-delay:2s ;
+        animation-direction: reverse;
+       animation-timing-function: cubic-bezier(1, 0.1, 0.1, 0.89);
+       animation: */
+       animation :mymove 1s 2 reverse 
+    }
+
+    @keyframes mymove {
+        form{
+            background-color: black;
+            
+        }
+
+        to{
+
+            background: red;
+            /* transform: translatex(255px); */
+           /* transform: rotate(45deg) scale(.5); */
+           
+        }
+
+    }
+    @keyframes harry2 {
+            0%{
+                transform: rotate(100deg);
+            }
+            20%{
+                transform: rotate(200deg);
+            }
+            50%{
+                transform: rotate(220deg);
+            }
+            80%{
+                transform: rotate(300deg);
+            }
+            100%{
+                transform: rotate(310deg);
+            }
+        }
+   </style>
+</head>
+<body>
+    <div class="conatiner">
+        <div class="box harry2"></div>
+    </div>
+</body>
+</html>
